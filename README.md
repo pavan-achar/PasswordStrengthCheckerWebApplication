@@ -1,9 +1,8 @@
 # PasswordStrengthCheckerWebApplication
 A modern, responsive **Password Strength Checker** built using **HTML, CSS, and JavaScript**. It analyzes passwords for entropy, detects weak patterns, and gives actionable suggestions to help users create strong and secure passwords. 
-Here’s a clean, **GitHub-ready README.md** for your **Password Strength Checker Web App** — formatted with sections, badges, and code blocks so you can copy-paste directly into your repository 👇
 
 ---  
-
+"C:\Users\pavan\OneDrive\Desktop\project.html"
 ![Password Checker Screenshot](https://user-images.githubusercontent.com/00000000/placeholder.png) 
 
 ---
@@ -43,8 +42,8 @@ Here’s a clean, **GitHub-ready README.md** for your **Password Strength Checke
 📦 password-strength-checker
 ┣ 📜 index.html         # Main web app file
 ┣ 📜 README.md          # Project documentation
-┣ 📁 /assets            # (Optional) screenshots or icons
-┗ 📜 LICENSE            # MIT or your preferred license
+┣ 📁 /assets            # screenshots or icons
+
 
 ````
 
@@ -55,7 +54,7 @@ Here’s a clean, **GitHub-ready README.md** for your **Password Strength Checke
 ### Option 1 – Local setup  
 1. Clone the repository  
    ```bash
-   git clone https://github.com/yourusername/password-strength-checker.git
+   git clone https://github.com/pavan-achar/password-strength-checker.git
    cd password-strength-checker
 ````
 
