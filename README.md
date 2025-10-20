@@ -1,9 +1,9 @@
-# PasswordStrengthCheckerWebApplication
+[project.pdf](https://github.com/user-attachments/files/22998592/project.pdf)# PasswordStrengthCheckerWebApplication
 A modern, responsive **Password Strength Checker** built using **HTML, CSS, and JavaScript**. It analyzes passwords for entropy, detects weak patterns, and gives actionable suggestions to help users create strong and secure passwords. 
 
 ---  
-"C:\Users\pavan\OneDrive\Desktop\project.html"
-![Password Checker Screenshot](https://user-images.githubusercontent.com/00000000/placeholder.png) 
+<img width="1920" height="1080" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/400bab69-4db0-4acf-a1fb-417a28455f5b" />
+[project.pdf](https://github.com/user-attachments/files/22998597/project.pdf)
 
 ---
 
