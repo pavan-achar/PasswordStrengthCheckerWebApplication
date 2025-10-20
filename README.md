@@ -125,7 +125,7 @@ The strength score is calculated using:
 
 ## 🧑‍💻 Author
 
-**[Your Name](https://github.com/yourusername)**
+**[Pavan](https://github.com/pavan-achar)**
 💼 Aspiring Cybersecurity Engineer | Web Developer | Tech Enthusiast
 
 If you found this project helpful, consider leaving a ⭐ on GitHub!
@@ -133,5 +133,3 @@ If you found this project helpful, consider leaving a ⭐ on GitHub!
 ---
 
 
-paste.
-```
