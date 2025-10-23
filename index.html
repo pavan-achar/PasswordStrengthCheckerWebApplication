@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Password Strength Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="wrap" role="main" aria-labelledby="title">
+        <h1 id="title">Password Strength Checker</h1>
+        <p class="lead">Type a password to get an entropy-based strength score, suggestions, and a generated strong password you can use.</p>
+        
+        <div class="row" role="region" aria-label="Password controls">
+            <div class="col">
+                <label for="pwd">Password</label>
+                <input id="pwd" type="password" autocomplete="new-password" aria-describedby="pwdHelp" placeholder="Type or paste a password">
+                
+                <div class="controls">
+                    <button id="toggleVisibility" class="ghost" aria-pressed="false">Show</button>
+                    <button id="generate">Generate strong password</button>
+                    <button id="copyPwd" class="ghost">Copy</button>
+                    <span class="badge" id="commonBadge" style="display:none;">Common password</span>
+                </div>
+                
+                <div class="meter" aria-hidden="true">
+                    <div id="meterFill" class="meter-fill"></div>
+                </div>
+                
+                <div class="score" aria-live="polite">
+                    <div id="rating">Strength: <strong>—</strong></div>
+                    <div id="entropy">Entropy: <strong>—</strong></div>
+                </div>
+                
+                <div class="suggestions" id="suggestions" aria-live="polite">
+                    Suggestions will appear here.
+                </div>
+            </div>
+            
+            <div class="col" aria-label="Details and tips">
+                <div class="info-box">
+                    <strong>How score is computed</strong>
+                    <p style="margin:6px 0 0;">We estimate <em>entropy</em> in bits using character pool size and length, penalize common passwords, repeated characters, simple sequences (e.g., "abcd", "1234"), and apply a small bonus for mixed character classes. Use the suggestions to increase strength.</p>
+                </div>
+                
+                <div class="info-box" style="margin-top:12px;">
+                    <strong>Quick tips</strong>
+                    <ul style="margin:8px 0 0 18px;">
+                        <li>Use length — add characters (12+ recommended).</li>
+                        <li>Mix uppercase, lowercase, numbers, and symbols.</li>
+                        <li>Avoid common words, repeated sequences, and simple substitutions.</li>
+                        <li>Use passphrases — 4+ unrelated words are strong & memorable.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <footer>Built for learning — never reuse critical credentials during testing.</footer>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
